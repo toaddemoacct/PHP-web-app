@@ -1,9 +1,9 @@
 <?php
 
-$conn = oci_connect("phphol", "welcome", "//localhost/orcl");
+$conn = oci_connect("phphol", "welcome", "//localhost/pdb_demo");
 
 // PHP function to get a formatted date
-$d = date('j:M:y H:i:s');
+$d = date.UTC('j:M:y H:i:s');
 
 // Insert the date into mytable
 $s = oci_parse($conn,

@@ -24,7 +24,7 @@ function do_delete($conn)
 }
 
 // Program starts here
-$c = oci_connect("phphol", "welcome", "//localhost/orcl");
+$c = oci_connect("phphol", "welcome", "//localhost/pdb_demo");
 
 $starttime = microtime(TRUE);
 for ($i = 0; $i < 10000; $i++) {
