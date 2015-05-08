@@ -1,5 +1,6 @@
 README
 ======
+This is a test 
 
 This directory should be used to place project specfic documentation including
 but not limited to project notes, generated API/phpdoc documentation, or
