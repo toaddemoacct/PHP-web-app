@@ -1,0 +1,5 @@
+CREATE OR REPLACE package PHPHOL.fetchperfpkg as
+  type arrtype is table of varchar2(20) index by pls_integer;
+  procedure selbulk(p1 out arrtype);
+end fetchperfpkg;
+/
