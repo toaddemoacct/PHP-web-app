@@ -5,6 +5,6 @@ BEGIN
    INSERT INTO ptab(mydata, myid)
         VALUES (d_p, i_p);
 
-   RETURN (i_p * 3);
+   RETURN (i_p * 2);
 END;
 /
