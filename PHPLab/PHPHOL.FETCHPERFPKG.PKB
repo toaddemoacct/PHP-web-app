@@ -6,4 +6,4 @@ CREATE OR REPLACE package body PHPHOL.fetchperfpkg as
      from  bigtab;
   end selbulk;
 end fetchperfpkg;
-/
+
