@@ -1,0 +1,12 @@
+CREATE OR REPLACE PACKAGE DELL_DEV.qu_verify_SEQUENCE AUTHID CURRENT_USER
+AS
+  TYPE object_name_aat IS TABLE OF user_objects.object_name%TYPE INDEX BY BINARY_INTEGER;
+
+  FUNCTION verify(
+     delimiter_in IN VARCHAR2 DEFAULT ','
+     , ignore_object_names IN object_name_aat
+     , ignore_object_types IN object_name_aat
+     )
+     RETURN VARCHAR2;
+END qu_verify_SEQUENCE;
+/
