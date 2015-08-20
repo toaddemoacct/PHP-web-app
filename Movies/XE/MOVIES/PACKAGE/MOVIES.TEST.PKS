@@ -1,5 +1,0 @@
-CREATE OR REPLACE PACKAGE MOVIES.test
-AS
-   begin
-NULL;
-/
